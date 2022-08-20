@@ -25,7 +25,7 @@ p {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+ 
 }
 
 .form {
@@ -81,6 +81,14 @@ input {
   border-radius: 4px;
   height: 20px;
   border: 1px solid #E5E7EB;
+}
+
+input:invalid:not(:placeholder-shown) {
+  border-color: red;
+}
+
+input:valid:focus {
+  border-color: #51ce6c;
 }
 
 .fieldset {
