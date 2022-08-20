@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'Norse-Bold';
+  src: url('Norse-Bold.otf');
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+}
+
+p {
+  font-size: 25px;
+  font-weight: 550;
+  padding: 0px 30px;
+}
+
+.image {
+  width: 35vw;
+  background-image: url(leaves-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.form {
+  width: 65vw;
+  padding: 30px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  background-color: #faf9f9;
+}
+
+.logo {
+  background-color: rgba(0,0,0,0.5);
+  height: 150px;
+  padding: 30px;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+
+.logo-font {
+  font-family: Norse-Bold;
+  font-size: 110px;
+  color: white;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.font-caption {
+  margin: auto auto 10px auto;
+  font-weight: 100;
+  color: white;
+}
+
+button[type="submit"] {
+  background-color: #596D48;
+  border-color: #596D48;
+  border-radius: 5px;
+  width: 200px;
+  height: 40px;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  margin-left: 40px;
+}
+
+input {
+  border-radius: 4px;
+  height: 20px;
+  border: 1px solid #E5E7EB;
+}
+
+.fieldset {
+  flex-wrap: wrap;
+  display: flex;
+  border: none;
+  background-color: white;
+  margin: 50px 0px;
+  box-shadow: 2px 8px 19px #E5E7EB; 
+}
+
+.input {
+  width: 35%;
+  height: 60px;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 5px;
+  padding: 10px 30px;
+}
+
+.form-title {
+  width: 100%;
+}
+
+label {
+  font-size: 13px;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+
+.font-smaller {
+  font-size: 18px;
+}
+
+.font-caption {
+  font-size: 15px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Sign Up Form</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="image">
+      <div class="logo">
+          <img src="odin-logo.png" class="logo-image" alt="Odin Logo">
+          <h1 class="logo-font">ODIN</h1>
+      </div>
+      <p class="font-caption">Photo by <a class="font-caption" href="https://unsplash.com/photos/25xggax4bSA">Halie West on Unsplash</a></p>
+    </div>
+
+    <div class="form">
+      <p>This is not a real online service! 
+        You know you need something like this in your life to help you realize your deepest dreams. 
+        Sign up <em>now</em> to get started.</p>
+      <p>You <em>know</em> you want to.</p>
+      <form action="" method="post">
+        <fieldset class="fieldset">
+          <p class="form-title">Let's do this!</p>
+          <div class="input">
+            <label for="firstName">FIRST NAME</label>
+            <input type="text" id="firstName" required>
+          </div>
+
+          <div class="input">
+            <label for="lastName">LAST NAME</label>
+            <input type="text" id="lastName">
+          </div>
+
+          <div class="input">
+            <label for="email">EMAIL</label>
+            <input type="email" id="email" required>
+          </div>  
+  
+          <div class="input">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="number" id="phone">
+          </div>  
+  
+          <div class="input">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" required>
+          </div>
+          
+          <div class="input">
+            <label for="password">CONFIRM PASSWORD</label>
+            <input type="password" id="password" required>
+          </div>
+        </fieldset>
+        <button type="submit">Create Account</button>
+      </form>
+      <p class="font-smaller">Already have an account? <a href="">Log in</a></p>
+    </div>
+  </div>
+</body>
+</html>
